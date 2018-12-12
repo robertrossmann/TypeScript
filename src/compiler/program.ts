@@ -3783,6 +3783,7 @@ namespace ts {
                 return needJsx();
             case Extension.Jsx:
                 return needJsx() || needAllowJs();
+            case Extension.Mjs:
             case Extension.Js:
                 return needAllowJs();
             case Extension.Json:
